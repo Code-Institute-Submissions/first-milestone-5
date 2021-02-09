@@ -36,7 +36,18 @@ The main goal is to provide essential information as well as educating individua
 
 - As a user, i would like to access an email-forum and type inside it as well as clicking on the radio buttons with multiple alternatives.
 
+## My Goal as a site owner
+I would like to educate my users by using external resources that are ''heavily trusted'' althought some will be made up.
 
+A forum will be created for feedback from users such as is there any possible copyright issue, or experiencing any issue with site as well as is the content great and why? or needs more improvement?.
+
+I would like the website to be easily accessible , especially for the mobile users using a collapse navigation bar but for tablets as well.
+
+I would like to put more design into the website rather than too much information so that the user can access different types of content easier. The Read me buttons will help with that.
+
+I would like to provide a few icons to make it easier for the user experience to even navigate further easier. For example links provided for different types of social-media applications.
+
+I want to inform my users with more information by posting a video of animal/animals.
 
 
 
