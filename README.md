@@ -49,5 +49,20 @@ The main goal is to provide essential information as well as educating individua
 
 - I want to inform my users with more information by posting a video of animal/animals.
 
+## Requirements
+- Click on the icons and the "read more buttons" to be provided with further information.
+
+- Use the navbar to navigate yourself through the site and access different locations on the page by clicking the on the navbar.
+
+- Hover/click over images for more information.
+
+- Click on the icons to access the social media applications.
+
+- Click on the video to start the video and then reclick is in order to stop the video.
+
+- Use radio buttons for feedback and type a message if you have any questions.
+
+- Type email adress in the contact forum, its not a must but if you want to give feedback then you ought to do it.
+
 
 
