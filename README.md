@@ -23,6 +23,19 @@ The main goal is to provide essential information as well as educating individua
 
 - Find links to social-media such as instagram, youtube, twitter, pinterest and facebook.
 
+### User Story
+- As a user, i would like to navigate easily without any complicated issues using the navbar as well as the links provided in the page.
+
+- As a user, i would like to use one scrolling page to make the website simple.
+
+- As a user, i would like to access the ''Read more'' buttons for more information.
+
+- As a user, i would like to click/hover on images and access a piece of information about them.
+
+- As a user, i would like to access facebook,instagram or any other related social media applications througout the website.
+
+- As a user, i would like to access an email-forum and type inside it as well as clicking on the radio buttons with multiple alternatives.
+
 
 
 
