@@ -1,45 +1,29 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Wildlife
+## Experience the importance and the beauty of the Wildlife.
 
-Welcome USER_NAME,
+## UX (User Experience)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## Project Goals
+The main goal is to provide essential information as well as educating individuals in a general way of providing a few things in detail when it comes to the wildlife in order to experience and receive some great content of knowledge that can be shared througout the world. Althought a part of the goal will be experienced by its beauty for people to realize the beauty of the wildlife especially in images.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Goals
 
-`python3 -m http.server`
+- Find information about serveral types of animals.
 
-A blue button should appear to click: *Make Public*,
+- Find information about why animals matter.
 
-Another blue button should appear to click: *Open Browser*.
+- Find information about the wildlife in general.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- For feedback there is an email-forum provided with radio buttons for better clarification but also to make it more visually appealing.
 
-A blue button should appear to click: *Make Public*,
+- For more information there will exist a ''Read more'' button provided for the users that are more curios and want to access for more depth information.
 
-Another blue button should appear to click: *Open Browser*.
+- Access a video-clip of animal/animals.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Find links to social-media such as instagram, youtube, twitter, pinterest and facebook.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
