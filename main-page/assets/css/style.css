@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*-----------------------------------------------Colors*/
+
+
+/*-----------------------------------------------Colors-end*/
+
+
+
+/*-----------------------------------------------Header*/
+
+
+#lion-logo{
+    background-color:green;
+    width:30%;
+    height:3em;
+    margin-bottom: 3px;
+    float:left;
+}
+
+#lion-logo img{
+    width:100%;
+    border-radius:50%;
+}
+
+.navbar-center{
+    text-align:center;
+    
+}
+
+/*-----------------------------------------------Header-ends*/
