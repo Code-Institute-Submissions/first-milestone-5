@@ -75,5 +75,5 @@ View my wireframes for different screen sizes to be more specific:
 
 - Mobile Wireframes
 
-For further investigation you can click on wireframes. It will show you all the wireframes that i created for the three devices, mobile, tablet and desktop!
+For further investigation you can click on [wireframes](https://github.com/Essential-coding/first-milestone/tree/master/wireframes). It will show you all the wireframes that i created for the three devices, mobile, tablet and desktop!
 
