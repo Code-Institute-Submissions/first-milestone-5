@@ -73,16 +73,13 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
 /*----------------------------------------------------header-end*/
+
+
+
+
+
+
 
 
 
@@ -103,7 +100,21 @@ body{
     top:0.8em;
     
 }
+/*--------------------------------------------Header ends*/
+
+/*--------------------------------------------Main*/
+
+#main-container{
+    background-color:pink;
+    height:60em;
 }
+
+.main-content{
+    background-color:yellow;
+}
+
+
+
 
 
 
@@ -116,6 +127,7 @@ body{
     #logo-image img{
         width:70%;
     }
+/*--------------------------------------------Header ends*/
 }
 
 @media only screen and (min-width: 425px) { /*large phones*/
@@ -133,7 +145,7 @@ body{
     position:relative;
     top:0.5em;
 }
-
+/*--------------------------------------------Header ends*/
 }
 
 
@@ -153,11 +165,11 @@ body{
     }
 
     #hero-headline h1{
-    font-size:116em;
+    font-size:11em;
     position:relative;
     top:0.6em;
 }
-
+/*--------------------------------------------Header ends*/
 
 }
 
@@ -191,7 +203,7 @@ body{
         top:0.5em;
     
     }
-
+/*--------------------------------------------Header ends*/
 }
 
 
@@ -220,9 +232,9 @@ body{
 #hero-headline h1{
         font-size:15em;
         top:0em;
-    
+        letter-spacing:0.2em;
     }
-
+/*--------------------------------------------Header ends*/
     
 
 }
