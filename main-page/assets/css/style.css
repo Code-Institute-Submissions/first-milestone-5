@@ -44,7 +44,7 @@ body{
 }
 
 #header-content{
-    height:30em;
+    height:35em;
 }
 
 #hero-image{
@@ -55,7 +55,6 @@ body{
     width:100%;
     height:inherit;
     margin-top:2em;
-    position:relative;
 }
 
 
@@ -76,9 +75,18 @@ body{
 /*----------------------------------------------------header-end*/
 
 
+/*--------------------------------------------Main*/
+
+#main-content {
+    height: 15em;
+}
 
 
-
+.main-images{
+    background-color:gray;
+    height:inherit;
+    border: 1px solid;
+}
 
 
 
@@ -102,7 +110,6 @@ body{
 }
 /*--------------------------------------------Header ends*/
 
-/*--------------------------------------------Main*/
 
 #main-container{
     background-color:pink;
@@ -150,6 +157,11 @@ body{
 
 
 @media only screen and (min-width: 768px) { /*tablets*/
+    
+    #header-content{
+        height:inherit;;
+    }
+
     #logo-image{
         width:30%;
         height:3em;
@@ -174,6 +186,10 @@ body{
 }
 
 @media only screen and (min-width: 1024px) { /*desktops*/
+
+    #header-content{
+        height:inherit;
+    }
 
     .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -208,6 +224,9 @@ body{
 
 
 @media only screen and (min-width: 1440px) { /*large desktops*/
+    #header-content{
+        height:inherit;
+    }
 
     .navbar-expand-lg .navbar-nav {
     flex-direction: row;
