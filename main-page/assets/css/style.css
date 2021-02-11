@@ -78,6 +78,9 @@ body{
 
 /*--------------------------------------------Main*/
 
+#main-container{
+    height:60em;
+}
 
 #main-content {
     height: 15em;
@@ -85,11 +88,25 @@ body{
 
 #animals{
     text-align:center;
-    height:10em;
+    padding: 6em 0;
+}
+
+#icon-lion img{
+    width:40%;
+    border-radius:50%;
+}
+
+#fire-video{
+    width:100%;
+    height:inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #animals h1{
-    font-size:3em;
+    font-size:5em;
+    color:rgba(250, 250, 150, 0.8);
 }
 
 .main-images{
@@ -126,11 +143,6 @@ body{
 }
 /*--------------------------------------------Header ends*/
 
-
-#main-container{
-    background-color:pink;
-    height:60em;
-}
 
 .main-content{
     background-color:yellow;
