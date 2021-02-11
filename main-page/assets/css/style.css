@@ -38,6 +38,19 @@ body{
     text-align: center;
 }
 
+#header-content{
+    height:30em;
+}
+
+#hero-image{
+    background-image:url(/main-page/assets/images/elephant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:inherit;
+}
+
 
 /*----------------------------------------------------header-end*/
 
@@ -99,6 +112,7 @@ body{
     width: 100%;
     justify-content: flex-end;
     }
+    
 
     #logo-image{
         width:30%;
@@ -111,7 +125,7 @@ body{
 }
 
 
-@media only screen and (min-width: 1024px) { /*large desktops*/
+@media only screen and (min-width: 1440px) { /*large desktops*/
 
     .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -121,10 +135,18 @@ body{
 
     #logo-image{
         width:30%;
-        height:3em;
+        height:5em;
     }
 
     #logo-image img{
         width:30%;
     }
+
+    #hero-image{
+        margin-top:1em;
+        height:45em;
+    }
+
+    
+
 }
