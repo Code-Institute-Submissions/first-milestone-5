@@ -75,12 +75,22 @@ body{
 /*----------------------------------------------------header-end*/
 
 
+
 /*--------------------------------------------Main*/
+
 
 #main-content {
     height: 15em;
 }
 
+#animals{
+    text-align:center;
+    height:10em;
+}
+
+#animals h1{
+    font-size:3em;
+}
 
 .main-images{
     background-color:gray;
@@ -88,6 +98,12 @@ body{
     border: 1px solid;
 }
 
+.main-images img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width:100%;
+}
 
 
 
