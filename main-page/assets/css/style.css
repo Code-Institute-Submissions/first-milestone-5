@@ -187,6 +187,16 @@ body{
     left: 8.5em;
 }
 
+.grasshopper-image img{
+    margin: auto;
+    height: 5em;
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    left: 10em;
+}
+
+
 .trapezoid-first {
     border-bottom: 5em solid;
     border-left: 2em solid transparent;
@@ -209,6 +219,16 @@ body{
     margin-top: 0.5em;
 }
 
+.trapezoid-third {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 70%;
+    margin-top: 0.5em;
+}
 
 
 
