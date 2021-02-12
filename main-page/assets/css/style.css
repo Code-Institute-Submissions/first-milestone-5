@@ -21,7 +21,11 @@ body{
 }
 
 #hero-headline h1{
-    color:rgba(130, 100, 70, 0.4);
+    color:rgba(250, 250, 150, 0.5);
+}
+
+#icon-lion h1{
+    color:rgba(250, 250, 150, 0.4);
 }
 
 
@@ -65,7 +69,6 @@ body{
 
 #hero-headline h1{
     font-size:5em;
-    color:rgba(250, 250, 150, 0.5);
     letter-spacing:0.1em;
     position:relative;
     top:0.8em;
@@ -86,14 +89,6 @@ body{
     height: 15em;
 }
 
-#animals{
-    text-align:center;
-    height:25em;
-}
-
-#animals h1{
-    font-size:3em;
-}
 
 #animals img{
     background-position: center;
@@ -103,54 +98,13 @@ body{
     height:inherit;
 }
 
-#icon-lion{
-    height: 12em;
-    width: 100%;
-    position: relative;
-    bottom: 22em;
-}
 
 #icon-lion img{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 35%;
-    border-radius: 50%;
-    height: 7em;
-}
-
-#icon-lion h1{
-    color:rgba(250, 250, 150, 0.4);
-    font-size:4em;
-    letter-spacing:0.1em;
-}
-
-/*#icon-lion img{
-    position:relative;
-    top:3em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
+    opacity:0.5;
     border-radius:50%;
 }
 
-/*#animals h1{
-    font-size:5em;
-    color:rgba(250, 250, 150, 0.8);
-}
 
-
-/*#icon-lion{
-    height:5em;
-    margin:auto;
-    background-image: url("/main-page/assets/images/icon-lion.jpg");
-    width:50%;
-    border-radius:50%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}*/
 
 .main-images{
     background-color:gray;
@@ -179,18 +133,34 @@ body{
         width:100%;
     }
     #hero-headline h1{
-    font-size:5em;
-    color:rgba(250, 250, 150, 0.5);
-    top:0.8em;
-    
-}
+        font-size:5em;
+        top:0.8em;
+    }
 /*--------------------------------------------Header ends*/
 
 
-.main-content{
-    background-color:yellow;
-}
+    #icon-lion{
+        position: relative;
+        bottom: 20em;
+    }
 
+
+    #icon-lion h1{
+        font-size:4em;
+        letter-spacing:0.1em;
+    }
+
+    #animals{
+        text-align:center;
+         height:25em;
+    }
+
+
+
+    #icon-lion img{
+        width: 35%;
+        height: 10em;
+    }
 
 }
 
@@ -205,7 +175,7 @@ body{
     #logo-image img{
         width:70%;
     }
-/*--------------------------------------------Header ends*/
+
 }
 
 @media only screen and (min-width: 425px) { /*large phones*/
@@ -219,18 +189,18 @@ body{
     }
 
     #hero-headline h1{
-    font-size:6em;
-    position:relative;
-    top:0.5em;
+        font-size:6em;
+        position:relative;
+        top:0.5em;
 }
-/*--------------------------------------------Header ends*/
+
 }
 
 
 @media only screen and (min-width: 768px) { /*tablets*/
     
     #header-content{
-        height:inherit;;
+        height:inherit;
     }
 
     #logo-image{
@@ -248,28 +218,32 @@ body{
     }
 
     #hero-headline h1{
-    font-size:11em;
-    position:relative;
-    top:0.6em;
+        font-size:11em;
+        position:relative;
+        top:0.6em;
+    }
+
+    #icon-lion{
+        position: relative;
+        bottom: 35em;
+    }
+
+    #animals{
+        text-align:center;
+        height:40em;
     }
 
 
 
-#icon-lion img{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 20%;
-    border-radius: 50%;
-    height: 7em;
-    opacity:0.7;
+    #icon-lion img{
+        width: 30%;
+        height: 15em;
     }
 
 
-#icon-lion h1{
-    color:rgba(250, 250, 150, 0.4);
-    font-size:6em;
-    letter-spacing:0.1em;
+    #icon-lion h1{
+        font-size:6em;
+        letter-spacing:0.1em;
     }
 }
 
@@ -299,8 +273,7 @@ body{
 
     
     #hero-image{
-
-        height:45em;
+       height:45em;
     }
 
     
@@ -312,19 +285,17 @@ body{
 /*--------------------------------------------Header ends*/
     
     #animals{
-    text-align:center;
-    height:40em;
+        text-align:center;
+        height:50em;
     }
 
     #icon-lion {
-    height: 12em;
-    width: 100%;
-    position: relative;
-    bottom: 28em;
+        position: relative;
+        bottom: 42em;
     }
 
     #icon-lion h1 {
-    font-size: 10em;
+        font-size: 10em;
     }
 
 }
@@ -336,9 +307,9 @@ body{
     }
 
     .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-end;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
     }
 
     #logo-image{
@@ -362,9 +333,5 @@ body{
     }
 /*--------------------------------------------Header ends*/
 
-    #animals{
-    text-align:center;
-    height:40em;
-    }
-
+    
 } 
