@@ -192,7 +192,7 @@ body{
 }
 
 
-
+}
 
 
 
@@ -262,7 +262,7 @@ body{
     width: 20%;
     border-radius: 50%;
     height: 7em;
-
+    opacity:0.7;
     }
 
 
@@ -310,6 +310,23 @@ body{
     
     }
 /*--------------------------------------------Header ends*/
+    
+    #animals{
+    text-align:center;
+    height:40em;
+    }
+
+    #icon-lion {
+    height: 12em;
+    width: 100%;
+    position: relative;
+    bottom: 28em;
+    }
+
+    #icon-lion h1 {
+    font-size: 10em;
+    }
+
 }
 
 
@@ -344,6 +361,10 @@ body{
         letter-spacing:0.2em;
     }
 /*--------------------------------------------Header ends*/
-} 
 
-}
+    #animals{
+    text-align:center;
+    height:40em;
+    }
+
+} 
