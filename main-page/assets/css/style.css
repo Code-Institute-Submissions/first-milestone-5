@@ -113,10 +113,6 @@ body{
     border-radius:50%;
 }
 
-.row{
-    height:40em;
-}
-
 .main-container{
     position:relative;
 }
@@ -143,93 +139,17 @@ body{
     color:white;
 }
 
-#foodchain{
-    background-color:yellow;
-    height:40em;
+#foodchain-headline{
     width:100%;
+    text-align:center;
+    color:wheat;
 }
 
-
-#triangle {
-    width: 0;
-    height: 0;
-    border-left: 10em solid transparent;
-    border-right: 10em solid transparent;
-    border-bottom: 10em solid;
-    margin: auto;
-    
+#foodchain{
+    background-image:url("/main-page/assets/images/cat-eyes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-.owl-image img{
-    height: 6em;
-    margin: auto;
-    position: relative;
-    top: 3em;
-    right: 4em;
-    border-radius: 50%;
-}
-
-.snakes-image img{
-    height: 5em;
-    margin: auto;
-    position: relative;
-    left: 6em;
-    border-radius: 50%;
-    width: 40%;
-}
-
-.bird-image img {
-    margin: auto;
-    height: 5em;
-    width: 30%;
-    border-radius: 50%;
-    position: relative;
-    left: 8.5em;
-}
-
-.grasshopper-image img{
-    margin: auto;
-    height: 5em;
-    width: 30%;
-    border-radius: 50%;
-    position: relative;
-    left: 10em;
-}
-
-
-.trapezoid-first {
-    border-bottom: 5em solid;
-    border-left: 2em solid transparent;
-    border-right: 2em solid transparent;
-    height: 0;
-    width: 5em;
-    margin: auto;
-    width: 50%;
-    margin-top: 0.5em;
-}
-
-.trapezoid-second {
-    border-bottom: 5em solid;
-    border-left: 2em solid transparent;
-    border-right: 2em solid transparent;
-    height: 0;
-    width: 5em;
-    margin: auto;
-    width: 60%;
-    margin-top: 0.5em;
-}
-
-.trapezoid-third {
-    border-bottom: 5em solid;
-    border-left: 2em solid transparent;
-    border-right: 2em solid transparent;
-    height: 0;
-    width: 5em;
-    margin: auto;
-    width: 70%;
-    margin-top: 0.5em;
-}
-
 
 
 
@@ -314,11 +234,118 @@ body{
 
 
     .images-animals{
-        background-color: rgba(255, 100, 100,0.5);
-        color:#fff;
-        border-radius:10%;
-        height:1.5em;
+    background-color: rgba(255, 100, 100,0.5);
+    color:#fff;
+    border-radius:10%;
+    height:1.5em;
     }
+    #foodchain {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:inherit;
+}
+
+    #triangle {
+    width: 0;
+    height: 0;
+    border-left: 10em solid transparent;
+    border-right: 10em solid transparent;
+    border-bottom: 10em solid;
+    margin: auto;
+    
+}
+
+.owl-image img{
+    height: 6em;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    right: 4em;
+    border-radius: 50%;
+}
+
+.snakes-image img {
+    height: 5em;
+    margin: auto;
+    position: relative;
+    left: 0;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.bird-image img {
+    margin: auto;
+    height: 5em;
+    width: 60%;
+    border-radius: 50%;
+    position: relative;
+    left: 2em;
+}
+
+.grasshopper-image img {
+    margin: auto;
+    height: 5em;
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    left: 3.5em;
+}
+
+.producers-image img {
+    margin: auto;
+    height: 5em;
+    width: 40%;
+    border-radius: 50%;
+    position: relative;
+    left: 5.5em;
+}
+
+
+
+.trapezoid-first {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 55%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-second {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 75%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-third {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 95%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-fourth {
+    border-bottom: 5em solid;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
 
 
 
@@ -335,6 +362,109 @@ body{
     #logo-image img{
         width:70%;
     }
+
+     #triangle {
+    width: 0;
+    height: 0;
+    border-left: 10em solid transparent;
+    border-right: 10em solid transparent;
+    border-bottom: 10em solid;
+    margin: auto;
+    
+}
+
+.owl-image img{
+    height: 6em;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    right: 4em;
+    border-radius: 50%;
+}
+
+.snakes-image img {
+    height: 5em;
+    margin: auto;
+    position: relative;
+    left: 1em;
+    border-radius: 50%;
+    width: 85%;
+}
+
+.bird-image img {
+    margin: auto;
+    height: 5em;
+    width: 60%;
+    border-radius: 50%;
+    position: relative;
+    left: 3em;
+}
+
+.grasshopper-image img {
+    margin: auto;
+    height: 5em;
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    left: 5em;
+}
+
+.producers-image img {
+    margin: auto;
+    height: 5em;
+    width: 40%;
+    border-radius: 50%;
+    position: relative;
+    left: 7.5em;
+}
+
+
+
+.trapezoid-first {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 59%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-second {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 75%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-third {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 92%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-fourth {
+    border-bottom: 5em solid;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+
 
 }
 
@@ -417,6 +547,111 @@ body{
     
 }
 
+    #foodchain {
+        background-size: cover;
+    }
+    #triangle {
+    width: 0;
+    height: 0;
+    border-left: 10em solid transparent;
+    border-right: 10em solid transparent;
+    border-bottom: 10em solid;
+    margin: auto;
+    
+}
+
+.owl-image img{
+    height: 6em;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    right: 4em;
+    border-radius: 50%;
+}
+
+.snakes-image img{
+    height: 5em;
+    margin: auto;
+    position: relative;
+    left: 6em;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.bird-image img {
+    margin: auto;
+    height: 5em;
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    left: 8.5em;
+}
+
+.grasshopper-image img{
+    margin: auto;
+    height: 5em;
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    left: 10em;
+}
+
+.producers-image img {
+    margin: auto;
+    height: 5em;
+    width: 23%;
+    border-radius: 50%;
+    position: relative;
+    left: 13em;
+}
+
+
+
+.trapezoid-first {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 50%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-second {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 60%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-third {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 70%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-fourth {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 80%;
+    margin-top: 0.5em;
+}
+
+
 
 }
 /*--------------------------------------------Header ends*/
@@ -474,6 +709,121 @@ body{
         font-size: 0.73em;
     }
 
+    .images-animals {
+    background-color: rgba(255, 100, 100,0.5);
+    color: #fff;
+    border-radius: 10%;
+    height: 3em;
+}
+
+    .text-left-bottom {
+    height: 2.5em;
+    position: relative;
+    bottom: 4.5em;
+    width: 30%;
+    margin-left: 0.20em;
+}
+
+        #triangle {
+    width: 0;
+    height: 0;
+    border-left: 10em solid transparent;
+    border-right: 10em solid transparent;
+    border-bottom: 10em solid;
+    margin: auto;
+    
+}
+
+.owl-image img{
+    height: 6em;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    right: 4em;
+    border-radius: 50%;
+}
+
+.snakes-image img{
+    height: 5em;
+    margin: auto;
+    position: relative;
+    left: 6em;
+    border-radius: 50%;
+    width: 45%;
+}
+
+.bird-image img {
+    margin: auto;
+    height: 5em;
+    width: 35%;
+    border-radius: 50%;
+    position: relative;
+    left: 9em;
+}
+
+.grasshopper-image img {
+    margin: auto;
+    height: 5em;
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    left: 11.5em;
+}
+
+.producers-image img {
+    margin: auto;
+    height: 5em;
+    width: 23%;
+    border-radius: 50%;
+    position: relative;
+    left: 15em;
+}
+
+
+
+.trapezoid-first {
+    border-bottom: 5em solid;
+    border-left: 3em solid transparent;
+    border-right: 3em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 42%;
+    margin-top: 0.5em;
+    opacity: 0.7;
+    }
+
+.trapezoid-second {
+    border-bottom: 5em solid;
+    border-left: 2.5em solid transparent;
+    border-right: 2.5em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 51.5%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-third {
+    border-bottom: 5em solid;
+    border-left: 3em solid transparent;
+    border-right: 3em solid transparent;
+    width: 5em;
+    margin: auto;
+    width: 62%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-fourth {
+    border-bottom: 5em solid;
+    border-left: 2.5em solid transparent;
+    border-right: 2.5em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 71%;
+    margin-top: 0.5em;
+}
     
 
 
