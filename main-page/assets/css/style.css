@@ -160,7 +160,7 @@ body{
     
 }
 
-#triangle img {
+.owl-image img{
     height: 6em;
     margin: auto;
     position: relative;
@@ -168,7 +168,26 @@ body{
     right: 4em;
     border-radius: 50%;
 }
-.first-trapezoid {
+
+.snakes-image img{
+    height: 5em;
+    margin: auto;
+    position: relative;
+    left: 6em;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.bird-image img {
+    margin: auto;
+    height: 5em;
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    left: 8.5em;
+}
+
+.trapezoid-first {
     border-bottom: 5em solid;
     border-left: 2em solid transparent;
     border-right: 2em solid transparent;
@@ -176,6 +195,17 @@ body{
     width: 5em;
     margin: auto;
     width: 50%;
+    margin-top: 0.5em;
+}
+
+.trapezoid-second {
+    border-bottom: 5em solid;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    height: 0;
+    width: 5em;
+    margin: auto;
+    width: 60%;
     margin-top: 0.5em;
 }
 
