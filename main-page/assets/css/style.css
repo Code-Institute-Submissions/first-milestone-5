@@ -142,8 +142,7 @@ body{
     position:relative;
 }
 
-.main-images-animals{
-    background-image:url("/main-page/assets/images/lion.jpg");
+.main-images-animals img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
