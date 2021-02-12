@@ -114,7 +114,6 @@ body{
 }
 
 .row{
-    background-color:yellow;
     height:30em;
 }
 
@@ -139,7 +138,18 @@ body{
 }
 
 
+.main-container{
+    position:relative;
+}
 
+.main-images-animals{
+    background-image:url("/main-page/assets/images/lion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:15em;
+}
 
 
 
@@ -193,6 +203,8 @@ body{
     width:30%;
     background-color:gray;
     height:3em;
+    position:absolute;
+    top:60em;
     }
 
     .text-left-bottom{
@@ -200,7 +212,7 @@ body{
     width: 30%;
     height: 2.5em;
     position: relative;
-    top: 2em;
+    bottom: 2.5em;
     }
 
     .text-bottom-right {
@@ -209,8 +221,12 @@ body{
     width: 40%;
     float: right;
     position: relative;
-    top: 2.5em;
+    bottom: 5em;
 }
+
+    main{
+        background-color:yellow;
+    }
 
 
 }
@@ -297,10 +313,12 @@ body{
         letter-spacing:0.1em;
     }
 
-    .text-block-top{
-        width:40%;
-        background-color:gray;
-        height:3em;
+    .text-block-top {
+        width: 15%;
+        background-color: gray;
+        height: 3em;
+        position: absolute;
+        top: 91.7em;
     }
 
     .text-left-bottom {
@@ -308,7 +326,7 @@ body{
         width: 30%;
         height: 3em;
         position: relative;
-        top: 8.9em;
+        bottom: 3em;
     }
 
         .text-bottom-right {
@@ -316,8 +334,6 @@ body{
         height: 5em;
         width: 40%;
         float: right;
-        position: relative;
-        top: 10em;
 }
     
 }
