@@ -6,6 +6,15 @@
     border:0;
 }
 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -104,20 +113,31 @@ body{
     border-radius:50%;
 }
 
-
-
-.main-images{
-    background-color:gray;
-    height:inherit;
-    border: 1px solid;
+.row{
+    background-color:yellow;
+    height:30em;
 }
 
-.main-images img{
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
+.col-sm-3{
+    border:1px solid;
+}
+
+.col-md-6{
+    border:1px solid;
+}
+
+.col-lg-12{
+    border:1px solid;
+}
+
+.table{
+    
+    background-color:green;
+    position:relative;
     width:100%;
+
 }
+
 
 
 
@@ -136,9 +156,9 @@ body{
         font-size:5em;
         top:0.8em;
     }
-/*--------------------------------------------Header ends*/
+/*--------------------------------------------Header end*/
 
-
+/*--------------------------------------------Section start*/
     #icon-lion{
         position: relative;
         bottom: 20em;
@@ -161,6 +181,17 @@ body{
         width: 35%;
         height: 10em;
     }
+
+/*--------------------------------------------Section end*/
+
+    .text-block{
+    background-color: pink;
+    width: 30%;
+    height: 2em;
+    position: relative;
+    top: 6.9em;
+    }
+
 
 }
 
@@ -245,6 +276,15 @@ body{
         font-size:6em;
         letter-spacing:0.1em;
     }
+
+    .text-block {
+    background-color: pink;
+    width: 30%;
+    height: 3em;
+    position: relative;
+    top: 13.5em;
+    }
+    
 }
 
 /*--------------------------------------------Header ends*/
@@ -256,9 +296,9 @@ body{
     }
 
     .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-end;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
     }
     
 
