@@ -60,6 +60,10 @@ body{
     height:35em;
 }
 
+a{
+    text-decoration: none;
+}
+
 #hero-image{
     background-image:url(/main-page/assets/images/elephant.jpg);
     background-size: cover;
@@ -89,10 +93,6 @@ body{
 
 
 /*--------------------------------------------Main*/
-
-#main-container{
-    height:60em;
-}
 
 #main-content {
     height: 15em;
@@ -150,6 +150,40 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+
+#wildlife{
+        height:30em;
+        background-image: url("/main-page/assets/images/wildlife.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+#top-left-text-wildlife {
+    height: 2em;
+    width: 20%;
+    background-color: rgba(255, 100, 100, 0.4);
+    color:#fff;
+}
+
+#top-left-text-wildlife a{
+    color:#fff;
+}
+
+
+#bottom-left-text-wildlife {
+    height: 13.5em;
+    width: 45%;
+    position: relative;
+    top: 26.5em;
+    background-color: rgba(255, 100, 100, 0.7);
+    color: #fff;
+    font-size: 0.7em;
+}
+
 
 
 
@@ -344,6 +378,10 @@ body{
     margin: auto;
     width: 100%;
     margin-top: 0.5em;
+}
+
+#top-left-text-wildlife {
+    width: 25%;
 }
 
 
@@ -651,6 +689,16 @@ body{
     margin-top: 0.5em;
 }
 
+#bottom-left-text-wildlife {
+    height: 13.5em;
+    width: 25%;
+    position: relative;
+    top: 26.5em;
+    background-color: rgba(255, 100, 100, 0.7);
+    color: #fff;
+    font-size: 0.7em;
+    line-height:1.5em;
+}
 
 
 }
@@ -823,6 +871,23 @@ body{
     margin: auto;
     width: 71%;
     margin-top: 0.5em;
+}
+
+
+
+#top-left-text-wildlife{
+    background-color:rgba(255, 100, 100, 0.4);
+    height:4em;
+}
+
+#bottom-left-text-wildlife {
+    height: 13.5em;
+    width: 20%;
+    position: relative;
+    top: 26.5em;
+    background-color: rgba(255, 100, 100, 0.4);
+    color: #fff;
+    line-height:1.8em;
 }
     
 
